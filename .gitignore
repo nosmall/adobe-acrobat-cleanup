@@ -1,0 +1,54 @@
+# Project Specific
+logs/
+*.csv
+config.psd1
+.agent/
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+!.env.template
+!.env.sample
+*.local.*
+*.secret.*
+secrets/
+credentials*
+oauth_creds*
+google_accounts*
+
+# Keys & Certificates
+*.pem
+*.key
+*.ppk
+*.pfx
+*.p12
+*.kdbx
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# IDE / SFTP Deployment Configs
+.vscode/sftp.json
+.idea/
+
+# Logs & Backups
+*.log
+*.bak
+*.orig
+*.rea.backup
+
+# OS Junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Runtime / Build Caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+dist/
+build/
